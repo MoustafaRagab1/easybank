@@ -1,0 +1,33 @@
+.banking {
+  background-color: var(--light-grayish-blue);
+  padding: 60px;
+}
+
+.banking h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--dark-blue);
+}
+
+.banking h4 {
+  color: var(--dark-blue);
+  font-weight: 400;
+}
+
+.banking section {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+}
+
+.banking section div {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .banking section {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
